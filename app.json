@@ -1,30 +1,31 @@
 {
   "expo": {
     "name": "car_washfgf",
-    "slug": "car_washfgf",
+    "slug": "car-wash",
     "version": "1.0.0",
+    "privacy": "public",
+    "description": "Appointments",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "65f56347-35fb-478d-841f-8da10aeb3ae4"
+      }
+    },
+    "owner": "matejapetrovic"
   }
 }
